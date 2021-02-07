@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>TP_crud</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+		<script type="text/javascript" src="jquery-3.5.1.min.js"></script>
+		<script type="text/javascript" src="tp_crud.js"></script>
+
+	</head>
+	<body>
+<div class="container">
+			<form method="post" enctype="application/x-www-form-urlencoded" name="inscription">
+						<label>Prenom</label>
+				<input type="text" name="" id="prenom">
+						<label>Nom</label>
+				<input type="text" name="" id="nom">
+						<label>Courriel</label>
+				<input type="e-mail" name="" id="email">
+					<div class="mb-3">
+						<label for="exampleFormControlInput1" class="form-label">Numéro de téléphone</label>
+				<input type="text" name="" id="tel">
+					</div>
+					<div class="error"></div>
+
+				<button type="submit">Afficher dans la liste</button>
+				<onclick (function (formtable))>
+		<table id="maListe">
+			<thead>
+					<tr>
+						<th>Id</th>
+					<th>Prénom</th>
+					<th>Nom</th>
+					<th>Adresse</th>
+				<th>Téléphone</th>
+				</tr>
+				</tr>
+				</tr>
+				</tr>
+			</thead>
+
+			</form>
+	</body>
+</html>
